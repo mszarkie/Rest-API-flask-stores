@@ -15,4 +15,4 @@ class ItemUpdateSchema(Schema):
 
 class StoreSchema(Schema):
     id = fields.Str(dump_only=True)
-    price = fields.Float(required=True)
+    name = fields.Str(required=True)
